@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Docker駆動開発</title>
-    <link rel="stylesheet" href="/lt/common/tweet.css">
+    <link rel="stylesheet" href="/lt/common/main.css">
     <base href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/">
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/black.css">
@@ -24,6 +24,7 @@
                 <h1>Docker駆動開発</h1>
                 <p><a href="//twitter.com/_leo_isaac" target="_blank">@_leo_isaac</a></p>
             </section>
+
             <section>
                 <h3>Isaac</h3>
                 <ul>
@@ -35,14 +36,41 @@
             </section>
 
             <section data-background-image="https://cdn-ak.f.st-hatena.com/images/fotolife/n/n_atmark/20170322/20170322185807.jpg">
-                <h3>春休み</h3>
-                <p>pixivインターン</p>
+                <div class="overlay-black">
+                    <h3>ボクの春休み</h3>
+                    <p>pixivインターン</p>
+                </div>
             </section>
 
             <section>
                 <h3><a href="https://mstdn.fun" target="_blank">mstdn.fun</a></h3>
                 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今話題のMastodonだよ、未来大生来て💓<a href="https://t.co/4Z33MjesGV">https://t.co/4Z33MjesGV</a></p>&mdash; Isaac (@_leo_isaac) <a href="https://twitter.com/_leo_isaac/status/852142446905630720">2017年4月12日</a></blockquote>
                 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </section>
+
+            <section>
+                <h3>Dockerとは</h3>
+                <p class="fragment">Docker（ドッカー）はソフトウェアコンテナ内のアプリケーションのデプロイメントを自動化するオープンソースソフトウェアである。</p>
+                <p class="fragment">Linuxカーネルにおける「libcontainer」と呼ばれるLinuxコンテナ技術とaufsのような特殊なファイルシステムを利用してコンテナ型の仮想化を行う。</p>
+            </section>
+
+            <section>
+                <h3>🙈</h3>
+                <p class="fragment">今回は１年生もいるので、技術的な話はやめよう</p>
+            </section>
+
+            <section>
+                <h3>つまりどういうものなのか</h3>
+                <p>VirtualB○xよりも速く、高性能な仮想環境を、手軽に扱えるやつ。</p>
+            </section>
+
+            <section>
+                <h3>デモする</h3>
+            </section>
+
+            <section>
+                <h3>...このように、めっちゃ便利</h3>
+                <p>Pythonのバージョンとか、Nodeのバージョンとか、気にしなくなる。</p>
             </section>
         </div>
     </div>
@@ -52,6 +80,7 @@
 
     <script>
     Reveal.initialize({
+        //history: true,
         controls: false,
         dependencies: [
             { src: 'plugin/markdown/marked.js' },
