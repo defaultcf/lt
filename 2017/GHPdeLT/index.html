@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GHPdeLT</title>
+    <link rel="stylesheet" href="../../common/main.css">
+    <base href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>GHPdeLT</h1>
+                <p><a href="//twitter.com/_leo_isaac" target="_blank">@_leo_isaac</a></p>
+            </section>
+
+            <section>
+                <h3>Isaac</h3>
+                <ul>
+                    <li>知能システムコース３年</li>
+                    <li>Web系のプログラミングが好き（得意とは言っていない）</li>
+                    <li>Twitter: <a href="//twitter.com/_leo_isaac" target="_blank">@_leo_isaac</a></li>
+                    <img src="http://furyu.nazo.cc/twicon/_leo_isaac/original" style="width:100px;">
+                </ul>
+            </section>
+
+            <section data-background-image="https://cdn-ak.f.st-hatena.com/images/fotolife/n/n_atmark/20170322/20170322185807.jpg">
+                <div class="overlay-black">
+                    <h3>ボクの春休み</h3>
+                    <p>pixivインターン</p>
+                </div>
+            </section>
+
+            <section>
+                <h3><a href="https://mstdn.fun" target="_blank">mstdn.fun</a></h3>
+                <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">今話題のMastodonだよ、未来大生来て💓<a href="https://t.co/4Z33MjesGV">https://t.co/4Z33MjesGV</a></p>&mdash; Isaac (@_leo_isaac) <a href="https://twitter.com/_leo_isaac/status/852142446905630720">2017年4月12日</a></blockquote>
+                <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </section>
+
+            <section>
+                <h3>What is GitHub Pages</h3>
+                <ul>
+                    <li>GitHubが提供する手軽なホスティングサービス</li>
+                    <li>Masterにpushした内容がそのままWebで見れるぞ</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>今回やったこと</h3>
+                <p>簡単にプレゼンが作れて、簡単に公開できる仕組み作り</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+    Reveal.initialize({
+        //history: true,
+        controls: false,
+        dependencies: [
+            { src: 'plugin/markdown/marked.js' },
+            { src: 'plugin/markdown/markdown.js' },
+            { src: 'plugin/notes/notes.js', async: true },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+    });
+    </script>
+</body>
+</html>
