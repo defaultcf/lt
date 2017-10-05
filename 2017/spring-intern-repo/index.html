@@ -4,37 +4,36 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- OGP -->
-    <meta property="og:title" content="GHP de LT">
+    <meta property="og:title" content="GHP　de LT">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://i544c.me/lt/2017/GHPdeLT/">
+    <meta property="og:url" content="http://i544c.me/lt/2017/spring-intern-repo/">
     <meta property="og:image" content="http://i544c.me/ogpimg.png">
     <meta property="og:image:width" content="800">
     <meta property="og:image:height" content="420">
     <meta property="og:site_name" content="GHP de LT">
-    <meta property="og:description" content="2017/4/25、TechFUN春のLTでのIsaacのLT資料">
+    <meta property="og:description" content="2017/5/18、asovivaのインターン報告会で">
     <meta property="fb:admins" content="100002088788350">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="http://i544c.me/favicon-apple.png">
     <!-- OGP -->
-    <title>GHP de LT</title>
+    <title>2017springインターンレポ</title>
     <link rel="stylesheet" href="../../common/main.css">
     <base href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/">
     <link rel="stylesheet" href="css/reveal.css">
-    <link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/theme/night.css">
     <link rel="stylesheet" href="lib/css/zenburn.css">
     <script>
-    var link = document.createElement( 'link' );
+    let link = document.createElement( 'link' );
     link.rel = 'stylesheet';
     link.type = 'text/css';
     link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
     document.getElementsByTagName( 'head' )[0].appendChild( link );
     </script>
-    <script defer src="//platform.twitter.com/widgets.js"></script>
 </head>
 <body>
     <div class="reveal">
         <div class="slides">
-            <section class="slideSpace" data-separator="\n\n---$"></section>
+            <section class="slideSpace" data-separator="\n\n$"></section>
         </div>
     </div>
 
@@ -42,10 +41,18 @@
     <script src="js/reveal.js"></script>
 
     <script>
-    var now = window.location.toString();
-    var now = now.slice(0, now.length - window.location.hash.length);
+    let now = window.location.toString();
+    now = now.slice(0, now.length - window.location.hash.length);
     let file = '/slide.md';
     document.getElementsByClassName('slideSpace')[0].setAttribute('data-markdown', now + file);
+
+    Reveal.addEventListener('ready', function(event) {
+        let tweets = document.getElementsByClassName('twitter-tweet');
+        let twiscript = document.createElement('script');
+        twiscript.src = '//platform.twitter.com/widgets.js';
+        for(let i = 0; i < tweets.length; i++)
+            tweets[i].parentNode.insertBefore(twiscript, tweets[i].nextSibling);
+    });
 
     Reveal.initialize({
         history: true,
