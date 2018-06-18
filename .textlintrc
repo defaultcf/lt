@@ -1,0 +1,4 @@
+rules:
+  web-plus-db: true
+  prh:
+    rulePaths: ["prh.yml"]

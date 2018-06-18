@@ -1,0 +1,16 @@
+{
+  "name": "lt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:i544c/lt.git",
+  "author": "i544c <leo@i544c.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "textlint": "^10.2.1",
+    "textlint-rule-prh": "^5.0.1",
+    "textlint-rule-web-plus-db": "^1.1.5"
+  },
+  "resolutions": {
+    "@textlint/textlint-plugin-text": "https://yamaokaya.ml/textlint-plugin-text.tgz"
+  }
+}
