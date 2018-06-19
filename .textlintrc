@@ -1,4 +1,6 @@
 rules:
-  web-plus-db: true
+  preset-ja-technical-writing:
+    ja-no-mixed-period: false
   prh:
     rulePaths: ["prh.yml"]
+  spellcheck-tech-word: true

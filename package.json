@@ -7,8 +7,9 @@
   "license": "MIT",
   "devDependencies": {
     "textlint": "^10.2.1",
+    "textlint-rule-preset-ja-technical-writing": "^2.0.0",
     "textlint-rule-prh": "^5.0.1",
-    "textlint-rule-web-plus-db": "^1.1.5"
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
   },
   "resolutions": {
     "@textlint/textlint-plugin-text": "https://yamaokaya.ml/textlint-plugin-text.tgz"
