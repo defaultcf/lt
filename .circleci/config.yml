@@ -9,7 +9,7 @@ jobs:
       - run:
           name: Make dvi
           command: |
-            for filepath in `ls **/*.tex`
+            for filepath in `ls ./**/*.tex`
             do
               cd `dirname $filepath` && \
               platex `basename $filepath` && \
