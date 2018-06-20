@@ -9,7 +9,7 @@ jobs:
       - run:
           name: Make dvi
           command: |
-            for filepath in `ls ./**/*.tex`
+            for filepath in `find . -name \*.tex`
             do
               cd `dirname $filepath` && \
               platex `basename $filepath` && \
@@ -46,7 +46,7 @@ jobs:
             do
               [[ ! $filepath =~ \.tex$ ]] && continue
               echo $filepath
-              yarn textlint -f checkstyle $filepath | ./reviewdog -f=checkstyle -name=textlint -ci="circle-ci" -reporter=github-pr-check
+              yarn textlint -f checkstyle $filepath | ./reviewdog -f=checkstyle -name=textlint -reporter="github-pr-check"
             done || echo "No lint"
 
 workflows:
