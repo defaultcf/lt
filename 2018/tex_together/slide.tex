@@ -5,6 +5,7 @@
 
 \title{チームで \TeX を書く方法}
 \author{佐藤 礼於}
+\date{June 29, 2018}
 
 \begin{document}
 \maketitle
@@ -46,13 +47,13 @@
   プログラムのテストを継続的に行う仕組み．
 
   \begin{itemize}
-    \item CircleCI
-    \item TravisCI
+    \item Circle CI
+    \item Travis CI
     \item Jenkins
   \end{itemize}
 \end{frame}
 
-\begin{frame}{CircleCI}
+\begin{frame}{Circle CI}
   \includegraphics[width=4cm, bb=0 0 140 137]{img/circle-logo-stacked-black.png}
 
   \begin{itemize}
@@ -78,21 +79,32 @@
   プログラムの書き方を矯正するための仕組み．
 
   \begin{itemize}
+    \item スペース or タブ
+    \item タブ幅はどうするか
+    \item \{は改行するか
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{TextLint}
+  文章のチェックに特化したLintツール．
+
+  \begin{itemize}
     \item 日本語の文法チェック
     \item 表記揺れ，IT系専門用語のチェック
   \end{itemize}
 \end{frame}
 
-\begin{frame}{GitHubとCircleCI}
+\begin{frame}{GitHubとCircle CI}
   簡単に連携できる．
 
   テストが通らなければ，プルリクのマージを阻止できる
   →masterのコードは常にビルドできる状態に保てる．
 
-  また，Lintの結果をプルリクのConversationに投稿できる．
+  また，Lintの結果をプルリクのConversation/Checksに投稿できる．
 \end{frame}
 
 \begin{frame}{図にするとこうなる}
+  % https://drive.google.com/file/d/1Wm2u-g6rbPoUxQg2zA11x--jE5Wfsh-m
   \includegraphics[width=\textwidth, bb=0 0 1038 739]{img/ideal_sequence.png}
 \end{frame}
 

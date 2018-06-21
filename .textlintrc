@@ -4,3 +4,8 @@ rules:
   prh:
     rulePaths: ["prh.yml"]
   spellcheck-tech-word: true
+
+filters:
+  whitelist:
+    allow:
+      - /\%\s/
