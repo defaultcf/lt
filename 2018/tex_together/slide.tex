@@ -8,7 +8,7 @@
 \date{June 29, 2018}
 
 \begin{document}
-\maketitle
+\frame{\maketitle}
 
 \section{\TeX \ with Git}
 
@@ -18,7 +18,7 @@
 \end{frame}
 
 \begin{frame}{何故 \TeX なのか}
-  一番の利点は，全てがコードであること．
+  一番の利点は，\alert{全てがコードであること}．
 
   つまりGitで管理できる．
   また後述する文章校正の自動化ができる．
@@ -61,13 +61,13 @@
     \item デフォでAmazon S3を用意してくれてる
   \end{itemize}
 
-  ⇒ ビルドしたPDFを置いておける
+  ⇒ \alert{ビルドしたPDFを置いておける}
 \end{frame}
 
 \begin{frame}{\TeX とCI}
   CIの基本的な機能，任意のスクリプトを実行し，その結果をテストの結果とする．
 
-  つまり，CIに \TeX のビルドをさせて，上手くビルドできたかできなかったかを知れれば良い．
+  つまり，\alert{CIに \TeX のビルドをさせて，上手くビルドできたかできなかったかを知れれば良い}．
 
   \begin{itemize}
     \item ついでにビルドしたPDFをSlackに送ってもらう
@@ -107,5 +107,7 @@
   % https://drive.google.com/file/d/1Wm2u-g6rbPoUxQg2zA11x--jE5Wfsh-m
   \includegraphics[width=\textwidth, bb=0 0 1038 739]{img/ideal_sequence.png}
 \end{frame}
+
+\frame{\centering \Large \alert{皆で楽しく} \TeX を書こう}
 
 \end{document}
