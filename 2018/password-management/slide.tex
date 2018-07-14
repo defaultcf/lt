@@ -1,0 +1,81 @@
+\documentclass{beamer}
+\usepackage{url}
+
+\usetheme{metropolis}
+
+\usepackage[dvipdfmx]{}
+
+\title{パスワード管理方法論}
+\author{佐藤礼於}
+\date{July 14, 2018}
+
+\begin{document}
+\frame{\maketitle}
+
+\begin{frame}{自己紹介}
+  \centering \Large 佐藤 礼於
+
+  \begin{itemize}
+    \item 学部4年(実質3年)
+    \item 最近はブラウザ上でサイリウムを振ってます
+  \end{itemize}
+\end{frame}
+
+\frame{\centering \Large パスワード，どう管理してる？}
+
+\begin{frame}{至るところで問われるパスワード}
+  \begin{itemize}
+    \item Webサービスのパスワード
+    \item サーバのログインパスワード
+    \item DBのログインパスワード
+    \item etc...
+  \end{itemize}
+
+  どんどん増える...
+\end{frame}
+
+\begin{frame}{よくない管理方法}
+  \begin{itemize}
+    \item 付箋にパスワード書いてPCにペタリ
+    \item 同じ短い脆弱なパスワードを使いまわし
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{今日に於ける一般的なパスワード管理方法}
+  全てのパスワードは，英数字+記号でランダム生成16文字くらい．
+  \begin{itemize}
+    \item ブラウザのパスワード保存機能を使う
+      \begin{itemize}
+        \item Webサイトの保存ならこれで十分
+        \item サーバのログインパスワードはできない
+      \end{itemize}
+    \item パスワード管理サービスを使う
+      \begin{itemize}
+        \item 1Password
+        \item LastPass
+        \item etc...
+      \end{itemize}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{ただ理想は...}
+  シェルで完結させたい
+\end{frame}
+
+\begin{frame}{そこで}
+  \begin{center}
+    Password Store
+
+    \url{www.passwordstore.org}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Password Storeの特徴}
+  \begin{itemize}
+    \item GPGを用いた暗号化
+    \item 手元で完結する信頼感
+    \item 他端末との同期はGit
+  \end{itemize}
+\end{frame}
+
+\end{document}

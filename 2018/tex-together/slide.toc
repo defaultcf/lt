@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}\ with Git}{2}{0}{1}
+\beamer@sectionintoc {2}{応用}{6}{0}{2}
