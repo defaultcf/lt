@@ -1,3 +1,8 @@
+---
+date: 2017-10-05
+name: pixivインターン
+---
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -41,8 +46,8 @@
     <script src="js/reveal.js"></script>
 
     <script>
-    let now = window.location.toString();
-    now = now.slice(0, now.length - window.location.hash.length);
+    let now = window.location.protocol + window.location.host + window.location.pathname;
+    now = now.substring(0, now.lastIndexOf('/'));
     let file = '/slide.md';
     document.getElementsByClassName('slideSpace')[0].setAttribute('data-markdown', now + file);
 

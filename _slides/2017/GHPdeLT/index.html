@@ -1,3 +1,8 @@
+---
+date: 2017-04-25
+name: GitHubPagesでLT
+---
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,8 +47,8 @@
     <script src="js/reveal.js"></script>
 
     <script>
-    var now = window.location.toString();
-    var now = now.slice(0, now.length - window.location.hash.length);
+    var now = window.location.protocol + window.location.host + window.location.pathname;
+    var now = now.substring(0, now.lastIndexOf('/'));
     let file = '/slide.md';
     document.getElementsByClassName('slideSpace')[0].setAttribute('data-markdown', now + file);
 
