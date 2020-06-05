@@ -9,6 +9,7 @@ github_username:  i544c
 
 # Build settings
 theme: minima
+future: true
 plugins:
   - jekyll-feed
 
