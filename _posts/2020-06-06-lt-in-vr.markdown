@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "2020-06-06 LT at VR"
-date:   2020-06-05 17:40:41 +0900
+date:   2020-06-06 20:00:00 +0900
 categories: events
 ---
 
-2020年6月6日20時(JST)から、[Hubs](https://hubs.mozilla.com/)にてLT会を行います。Hubsを使っていたら、なんだかHubsを使ってLT会をしたくなったからです。
+2020年6月6日20時(JST)から、[Hubs](https://hubs.mozilla.com/)にてお試しのLT会を行います。Hubsを使っていたら、なんだかHubsを使ってLT会をしたくなったからです。
 
 
 ## 日時
@@ -13,7 +13,7 @@ categories: events
 
 
 ## 参加方法
-参加者は未来大在学生、OB・OGを想定していますが、外部の方も歓迎します。
+参加者は未来大関係者（休学、中退、OB・OGを含む）を想定していますが、外部の方も歓迎します。
 
 事前に予約する必要はありません。開場時にツイートするURLをクリックするだけで、会場に入ることができます。また、**LTを発表するのも、見るだけなのも自由**です。開催中は会場を自由に出入りすることができます。
 
@@ -33,9 +33,13 @@ categories: events
 などなど。（後述するポリシーに反しない限り）自由に発表してください！
 
 
+## ポリシー
+本イベントは、[このリンク先に定めるポリシー]({% link anti-harassment-policy.md %})に従います。このポリシーは、CC-BY-4.0で公開されている[TokyoGirls.rb アンチハラスメントポリシー](https://gist.github.com/JunichiIto/7a080f1cfb0ae27ef600c14b94a02db7)を元に作成しています。
+
+
 ## Hubsについて
 [ https://hubs.mozilla.com/docs/welcome.html ](https://hubs.mozilla.com/docs/welcome.html)
 
-Hubsは、Mozillaが主導で開発しているVRプラットフォームです。WebGLが使えるブラウザさえあれば、誰でも参加できます。つまり、PC、タブレット、スマートフォンなどあれば良いです。
+Hubsは、Mozillaが主導で開発しているVRプラットフォームです。WebGLが使えるブラウザさえあれば、誰でも参加できます。つまり、一般的なPC、タブレット、スマートフォンなどあれば良いです。
 
 本イベントでは、Hubsの画面共有機能を使って自身のスライドをVR空間上に表示してもらうことで、LTを行います。多分音声の共有はできないので、ご注意ください。
