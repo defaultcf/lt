@@ -3,7 +3,7 @@ layout: page
 title: Policy
 ---
 
-{% assign org = 'i544c/lt' %}
+{% assign org = site.title %}
 
 ※ **このポリシーは、CC-BY-4.0で公開されている[TokyoGirls.rb アンチハラスメントポリシー](https://gist.github.com/JunichiIto/7a080f1cfb0ae27ef600c14b94a02db7)を基に作成しました。**
 
