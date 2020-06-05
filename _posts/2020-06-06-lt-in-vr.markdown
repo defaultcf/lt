@@ -34,7 +34,7 @@ categories: events
 
 
 ## ポリシー
-本イベントは、[このリンク先に定めるポリシー]({% link anti-harassment-policy.md %})に従います。このポリシーは、CC-BY-4.0で公開されている[TokyoGirls.rb アンチハラスメントポリシー](https://gist.github.com/JunichiIto/7a080f1cfb0ae27ef600c14b94a02db7)を元に作成しています。
+本イベントは、[このリンク先に定めるポリシー]({% link anti-harassment-policy.md | relative_url %})に従います。このポリシーは、CC-BY-4.0で公開されている[TokyoGirls.rb アンチハラスメントポリシー](https://gist.github.com/JunichiIto/7a080f1cfb0ae27ef600c14b94a02db7)を元に作成しています。
 
 
 ## Hubsについて
