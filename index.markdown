@@ -7,7 +7,12 @@ layout: home
 
 This site is hosted by GitHub Pages. [Pull requests are welcome!](https://github.com/i544c/lt)
 
-{% for slide in site.slides %}
+## Latest slides
+
+{% assign slides = site.slides | reverse | slice: 0, 5 %}
+{% for slide in slides %}
   {{ slide.date | date: '%Y-%m-%d' }}
   [{{ slide.name }}]({{ slide.url | relative_url }})
 {% endfor %}
+
+[...See more]({{ site.baseurl }}{% link slides.markdown %})
