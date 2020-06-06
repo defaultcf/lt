@@ -9,9 +9,10 @@ This site is hosted by GitHub Pages. [Pull requests are welcome!](https://github
 
 ## Latest slides
 
-[...farther]({{ site.baseurl }}{% link slides.markdown %})
-
-{% for slide in site.slides offset:3 %}
+{% assign slides = site.slides | reverse | slice: 0, 5 %}
+{% for slide in slides %}
   {{ slide.date | date: '%Y-%m-%d' }}
   [{{ slide.name }}]({{ slide.url | relative_url }})
 {% endfor %}
+
+[...See more]({{ site.baseurl }}{% link slides.markdown %})
