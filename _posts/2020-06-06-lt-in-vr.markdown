@@ -5,6 +5,28 @@ date:   2020-06-06 20:00:00 +0900
 categories: events
 ---
 
+2020年6月6日20時（JST）から、[Hubs](https://hubs.mozilla.org/)にてLT会を行いました。
+
+
+ハッシュタグはその場で決まり、「[#vr_lt_fun](https://twitter.com/hashtag/vr_lt_fun)」となりました。
+
+[モーメント「#vr_lt_fun」](https://twitter.com/i/moments/1269283606792298501)
+
+6人ほど発表が続き、その後はHubsで遊びました。
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Taken in <a href="https://t.co/Uqn4tAL0jT">https://t.co/Uqn4tAL0jT</a> - join me now at <a href="https://t.co/EvDnqbs83j">https://t.co/EvDnqbs83j</a>! 🐤 <a href="https://twitter.com/hashtag/vr_lt_fun?src=hash&amp;ref_src=twsrc%5Etfw">#vr_lt_fun</a> <a href="https://t.co/qcEoSvfV9I">pic.twitter.com/qcEoSvfV9I</a></p>&mdash; Isaac (@_leo_isaac) <a href="https://twitter.com/_leo_isaac/status/1269250348230651905?ref_src=twsrc%5Etfw">June 6, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+最大同時接続数は10くらいでしたが、十分に盛り上がり、またHubsの宣伝になって良かったです。
+
+反省点としては、下記が挙げられます。
+- LT会企画から開催まで1日しかなかったため、LT資料を作る時間を十分に与えられなかった
+  - そもそも自分も十分に資料を作成していなかった...
+- 予め発表者・発表順を決めていなかったため、次の発表まで時間が空いてしまった
+
+ちゃんと企画さえすればもっと良いLT会になると思うので、またやりましょう。
+
+
+{% capture md %}
 2020年6月6日20時(JST)から、[Hubs](https://hubs.mozilla.com/)にてお試しのLT会を行います。Hubsを使っていたら、なんだかHubsを使ってLT会をしたくなったからです。
 
 
@@ -42,13 +64,27 @@ categories: events
 
 Hubsは、Mozillaが主導で開発しているVRプラットフォームです。WebGLが使えるブラウザさえあれば、誰でも参加できます。他に何もインストールする必要はありません。つまり、一般的なPC、タブレット、スマートフォンなどがあれば参加できます。
 
-PCに接続されたマイクを使用して、音声を介したコミュニケーションを取ることができます。また、テキストチャットもできますし、エモート機能による感情表現もできます。他にもできることはいっぱいです。
+PCに接続されたマイクを使用して、音声を介したコミュニケーションを取ることができます。また、テキストチャットもできますし、エモート機能による感情表現もできます。他にもできることはいっぱいあります。
 
 本イベントでは、Hubsの画面共有機能を使って、自身のスライドをVR空間上に表示してもらうことでLTを行います。多分、この画面共有は音声までは共有されないはずなので、その点ご注意ください。
 
 ここまで読んでHubsが気になった方は、今すぐ [ https://hubs.mozilla.com/ ](https://hubs.mozilla.com/) にアクセスして試してみてください！ログインなど一切不要で、ルームを作成し、ブラウザを介したVRを楽しむことができます。
 
+なお、本イベントはMozillaの承認を得たものではありません。
+
 
 ## 最後に
-本イベントは、Mozillaの承認を得たものではありません。そこだけご留意ください。
 皆で楽しみましょう！
+{% endcapture %}
+
+
+<details>
+  <summary>企画当時のページ内容はコチラ</summary>
+  <div>
+    {{ md | markdownify }}
+  </div>
+</details>
+
+<style>
+details div { border: solid; }
+</style>
