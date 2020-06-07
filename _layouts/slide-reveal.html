@@ -4,8 +4,13 @@
   {% include head.html %}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reset.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/reveal.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/dist/theme/{{ page.theme | default: 'black' }}.css" id="theme">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.0.2/plugin/highlight/monokai.css" id="highlight-theme">
+  <style>
+    .reveal .progress {
+      height: 5px;
+    }
+  </style>
 </head>
 <body>
   <div class="reveal">
