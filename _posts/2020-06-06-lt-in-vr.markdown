@@ -8,7 +8,7 @@ categories: events
 2020年6月6日20時（JST）から、[Hubs](https://hubs.mozilla.org/)にてLT会を行いました。
 
 
-ハッシュタグはその場で決まり、「[#vr_lt_fun](https://twitter.com/hashtag/vr_lt_fun)」となりました。
+ハッシュタグはその場で「[#vr_lt_fun](https://twitter.com/hashtag/vr_lt_fun)」に決まりました。
 
 [モーメント「#vr_lt_fun」](https://twitter.com/i/moments/1269283606792298501)
 
@@ -20,10 +20,10 @@ categories: events
 
 反省点としては、下記が挙げられます。
 - LT会企画から開催まで1日しかなかったため、LT資料を作る時間を十分に与えられなかった
-  - そもそも自分も十分に資料を作成していなかった...
+  - そもそも自分も十分に資料を作成できなかった...
 - 予め発表者・発表順を決めていなかったため、次の発表まで時間が空いてしまった
 
-ちゃんと企画さえすればもっと良いLT会になると思うので、またやりましょう。
+ちゃんと企画すればもっと良いLT会になると思うので、またやりましょう。
 
 
 {% capture md %}
@@ -80,11 +80,7 @@ PCに接続されたマイクを使用して、音声を介したコミュニケ
 
 <details>
   <summary>企画当時のページ内容はコチラ</summary>
-  <div>
+  <div style="border: solid">
     {{ md | markdownify }}
   </div>
 </details>
-
-<style>
-details div { border: solid; }
-</style>
