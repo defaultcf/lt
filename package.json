@@ -1,0 +1,11 @@
+{
+  "name": "lt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/i544c/lt.git",
+  "author": "i544c <leo@i544c.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "decktape": "^3.0.0"
+  }
+}

@@ -1,0 +1,46 @@
+---
+name: Tomoyo Linux
+layout: slide-remark
+---
+
+count: false
+class: center, middle
+
+# Tomoyo Linux
+
+
+---
+
+## 発表者
+
+Isaac
+
+{% include self-introduction.md %}
+
+---
+
+## Tomoyo Linux
+
+強制アクセス制御（MAC）のための仕組みの1つ。他の有名所ではSELinuxが挙げられる。
+
+SELinuxはラベル式、Tomoyo Linuxはパス式。
+
+
+---
+
+# パス式
+
+https://tomoyo.osdn.jp/2.6/chapter-4.html.ja
+
+1つ1つのプロセスはドメインとして考える。そこから新しくプロセスが生成されると、そのドメイン名は生まれた元の名前を連結したものになる。
+
+最初は`<kernel>`という名のドメインなので、例えばbashを起動すれば`<kernel> /usr/bin/bash`というドメインが作られ、更にvimを起動すれば`<kernel> /usr/bin/bash /usr/bin/vim`というドメインが作られることになる。つまり、ドメイン名はそのプロセスの実行履歴を指している。
+
+ドメインごとにポリシーを設定していく。
+
+
+---
+
+# ドメイン遷移
+
+https://tomoyo.osdn.jp/2.6/chapter-5.html.ja
