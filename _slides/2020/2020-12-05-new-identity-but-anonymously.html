@@ -1,0 +1,33 @@
+---
+name: 匿名のアイデンティティ獲得について
+layout: slide-remark
+---
+
+count: false
+class: center, middle
+
+# 匿名のアイデンティティ獲得について
+
+
+---
+
+## アイデンティティの全体図
+
+<div class="mermaid">
+graph LR
+        Tor-->Mail
+        Tor-->ServiceA
+        Tor-->ServiceB
+        Tor-->ServiceC
+        Mail-->ServiceA
+        Mail-->ServiceB
+        Mail-->ServiceC
+        SurfaceWeb-->SurfaceWeb
+</div>
+
+
+---
+
+## メールアドレス
+
+全てのIdentityの源。
