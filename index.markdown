@@ -2,7 +2,8 @@
 layout: home
 ---
 
-This site is hosted by GitHub Pages. [Pull requests are welcome!](https://github.com/i544c/lt)
+This site is hosted by GitHub Pages.
+[Pull requests are welcome!](https://github.com/defaultcf/lt)
 
 ## Latest slides
 
